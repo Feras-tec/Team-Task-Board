@@ -17,7 +17,7 @@ export default function TaskItem({ task, onDeleteTask, onToggleStatus }) {
       case "open":
         return "Offen";
       case "in-progress":
-        return "In Bearbeitung";
+        return "In Arbeit";
       case "done":
         return "Erledigt";
       default:
@@ -39,7 +39,7 @@ export default function TaskItem({ task, onDeleteTask, onToggleStatus }) {
           </span>
         </div>
 
-        <p className="text-sm text-base-content/70 my-2 min-h-[40px]">
+        <p className="text-sm text-base-content/70 my-2 min-h-10">
           {task.description}
         </p>
 
