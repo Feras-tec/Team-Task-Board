@@ -1,20 +1,49 @@
-https://feras-tec.github.io/Team-Task-Board/
+# Team Task Board
 
-# React + Vite
+Eine responsive Aufgabenverwaltung für Teams. Aufgaben können erstellt, einer Person zugewiesen, nach Status gefiltert und durch den Arbeitsablauf bewegt werden. Die Daten bleiben lokal im Browser gespeichert.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Live-Demo ansehen](https://feras-tec.github.io/Team-Task-Board/)
 
-Currently, two official plugins are available:
+## Funktionen
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Aufgaben mit Titel und verantwortlicher Person erstellen
+- Aufgaben löschen
+- Status zwischen Offen, In Bearbeitung und Erledigt wechseln
+- Aufgaben nach Status filtern
+- Übersichtliche Statistiken zu allen Aufgaben
+- Persistente Speicherung im Browser mit localStorage
+- Responsive Benutzeroberfläche
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Bereich | Technologien |
+| --- | --- |
+| Frontend | React 19, JavaScript, Vite 8 |
+| Styling | Tailwind CSS 4, daisyUI 5 |
+| Optimierung | React Compiler |
+| Speicherung | Browser localStorage |
+| Deployment | GitHub Pages |
 
-## Expanding the ESLint configuration
+## Lokale Entwicklung
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Team-Task-Board
-# Team-Task-Board
+Voraussetzungen: Node.js und npm.
+
+~~~bash
+git clone https://github.com/Feras-tec/Team-Task-Board.git
+cd Team-Task-Board
+npm install
+npm run dev
+~~~
+
+## Verfügbare Skripte
+
+~~~bash
+npm run dev
+npm run build
+npm run lint
+npm run preview
+~~~
+
+## Autor
+
+Entwickelt von [Feras-tec](https://github.com/Feras-tec).
